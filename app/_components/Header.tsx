@@ -1,10 +1,9 @@
-
 import { LoginLink, RegisterLink } from '@kinde-oss/kinde-auth-nextjs'
 import Image from 'next/image'
 import React from 'react'
 
 function Header() {
-    // let im:string = "invisiblue"
+    
   return (
     <header className="bg-black">
   <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
@@ -49,7 +48,7 @@ function Header() {
             text-white transition "
            
           >
-            <LoginLink postLoginRedirectURL="/dashboard" className='hover:text-stone-300'> Login</LoginLink>
+            <LoginLink postLoginRedirectURL="/dashboard" className='hover:text-stone-400'> Login</LoginLink>
           </div>
 
           <div
